@@ -8,11 +8,14 @@ Tensorflow 1.9, PyTorch 1.0.0
 
     model_name: CDAE
 
-2. Set ./model_confg/CDAE.json --> hidden_dim: 100 (teacher) or 10 (student)
+2. Set ./model_confg/CDAE.json
 
- save_output: true (teacher) or false (student)
+    hidden_dim: 100 (teacher) or 10 (student)
+
+    save_output: true (teacher) or false (student)
  
- NOTE: Teacher model is saved to ./data/"data_name"/"model_name".p
+    NOTE: Teacher model is saved to ./data/"data_name"/"model_name".p
+
 3. run main.py
 
 ### Knowledge distillation (teacher model required)
