@@ -31,7 +31,7 @@ tensorflow 1.9,  PyTorch 1.0.0
 Set ./model_confg/"model_name".json
 
 
-## experiment envirionments settings
+## Envirionment of experiments settings
 Set ./model_confg.json
 ex) data
   dataset: "amazon"
