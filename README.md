@@ -3,13 +3,12 @@ Tensorflow 1.9, PyTorch 1.0.0
 
 ## Rapid usage
 ### Training teacher & student models
+
 1. Set ./main_config.json
- 
- model_name: CDAE
-2. Set ./model_confg/CDAE.json
- 
- hidden_dim: 100 (teacher) or 10 (student)
- 
+    model_name: CDAE
+
+2. Set ./model_confg/CDAE.json --> hidden_dim: 100 (teacher) or 10 (student)
+
  save_output: true (teacher) or false (student)
  
  NOTE: Teacher model is saved to ./data/"data_name"/"model_name".p
